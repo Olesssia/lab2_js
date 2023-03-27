@@ -1,0 +1,8 @@
+let valueInArray = prompt("Enter how many you want write numbers to aaray")
+i = 0;
+let Array_1 = []
+while(i<valueInArray) {
+   Array_1[i] = prompt("Enter numbers");
+  i++;
+}
+ console.log(Array_1.sort())
